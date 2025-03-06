@@ -3,8 +3,8 @@ const { addSchool, listSchools } = require('../controllers/schoolController');
 
 const router = express.Router();
 
-router.post('/schools', addSchool);
+router.post('/addschool', addSchool);
 
-router.get('/schools', listSchools);
+router.get('/listschools', listSchools);
 
 module.exports = router;
